@@ -1,19 +1,19 @@
 import { injectable } from 'inversify';
 
-export type ConfigKey = number | string | boolean;
+export type ConfigValue = number | string | boolean;
 
 export interface ConfigManager {
-  set(key: ConfigKey): void;
-  get(): ConfigKey;
+  set(key: string, value: ConfigValue): void;
+  get(key: string): ConfigValue;
 }
 
 @injectable()
 export class FilesystemConfigManager implements ConfigManager {
-  set(key: ConfigKey): void {
+  set(key: string, value: ConfigValue): void {
     throw new Error('Method not implemented.');
   }
 
-  get(): ConfigKey {
+  get(key: string): ConfigValue {
     throw new Error('Method not implemented.');
   }
 }
