@@ -1,7 +1,8 @@
 import { Command } from 'commander';
 import { LoginCommand } from './commands/login';
+import { Command as CliCommand } from './interfaces/Command';
 
-const commands = [new LoginCommand()];
+const commands: CliCommand[] = [new LoginCommand()];
 
 const program = new Command('datacat');
 
