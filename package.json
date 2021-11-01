@@ -1,0 +1,19 @@
+{
+  "name": "datacat-cli",
+  "version": "0.0.0",
+  "description": "Command-line interface for Datacat",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootkemp-dev/datacat-cli.git"
+  },
+  "author": "BootkempDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bootkemp-dev/datacat-cli/issues"
+  },
+  "homepage": "https://github.com/bootkemp-dev/datacat-cli#readme"
+}
